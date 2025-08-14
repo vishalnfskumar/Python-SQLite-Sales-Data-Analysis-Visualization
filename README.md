@@ -1,42 +1,62 @@
-# Python-SQLite-Sales-Data-Analysis-Visualization
-📖 Overview:
-This project is a complete, self-contained demonstration of how to work with SQLite databases in Python for sales data analysis. It covers the full workflow from database creation to data analysis and visualization — making it a practical reference for both beginners and intermediate learners in data analytics.
+# Python-SQLite Sales Data Analysis & Visualization
 
-The script first checks if a database exists; if not, it creates one (sales_data.db) and inserts 100 random sales records across multiple product categories such as laptops, phones, tablets, and accessories. Using the built-in sqlite3 library, SQL queries are executed to extract insights like total quantity sold per product, total revenue, and month-wise revenue trends. The results are displayed in Pandas DataFrames for easy readability and further analysis.
+**Author:** Vishal Kumar  
+**LinkedIn:** [https://www.linkedin.com/in/vishal013/](https://www.linkedin.com/in/vishal013/)  
 
-Visual insights are generated using Matplotlib, with a bar chart for product-wise revenue comparison and a line chart to track revenue trends over time. Both charts are saved as image files for reporting purposes.
+---
 
-🔹 Features:
+## Overview  
+This project demonstrates a complete workflow for working with **SQLite databases in Python** for sales data analysis.  
+It covers every step from **database creation** to **data analysis and visualization**, making it a practical resource for both beginners and intermediate data analytics learners.  
 
-1.Automatic Data Creation: Generates 100 random sales records with product names, quantities, prices, and sale dates.
+The script checks if a database exists; if not, it creates one (`sales_data.db`) and inserts **100 random sales records** across multiple product categories such as laptops, phones, tablets, and accessories. Using Python’s built-in `sqlite3` library, SQL queries are run to generate insights including:  
 
-2.SQL Inside Python: Uses standard SQL queries within Python scripts for data aggregation and summarization.
+- Total quantity sold per product  
+- Total revenue  
+- Month-wise revenue trends  
 
-3.Pandas Integration: Displays query results in clean, formatted DataFrames.
+The results are displayed in **Pandas DataFrames** for easy interpretation, and **Matplotlib** is used to create:  
 
-4.Data Visualization: Produces professional charts to aid business decision-making.
+- Bar charts for product-wise revenue comparison  
+- Line charts for tracking revenue trends over time  
 
-5.Self-Contained Workflow: No internet or external database setup required — works offline using only Python’s built-in SQLite.
+All charts are saved as image files for reporting purposes.  
 
+---
 
-💡 Learning Outcomes:
+## Features  
 
-1.Understand how to connect Python to SQLite databases.
+- **Automated Data Generation:** Creates 100 random sales records with product details, quantities, prices, and sale dates.  
+- **SQL Integration in Python:** Executes SQL queries for aggregation and summarization.  
+- **Clean Data Presentation:** Uses Pandas to display results in a readable format.  
+- **Data Visualization:** Produces clear, professional charts to support decision-making.  
+- **Offline, Self-Contained Workflow:** No internet or external database setup required.  
 
-2.Learn to write and run SQL queries inside Python.
+---
 
-3.Practice data aggregation and grouping using SQL GROUP BY.
+## Learning Outcomes  
 
-4.Explore data visualization techniques with Matplotlib.
+By working through this project, you will:  
 
-5.Gain experience in building automated, end-to-end analysis scripts.
+1. Learn how to connect Python to SQLite databases.  
+2. Write and execute SQL queries within Python scripts.  
+3. Perform data aggregation and grouping using `GROUP BY`.  
+4. Create meaningful visualizations with Matplotlib.  
+5. Build a self-contained, automated data analysis script.  
 
-🛠 Tools & Technologies:
+---
 
-1.Python – Main programming language.
+## Tools & Technologies  
 
-2.SQLite – Lightweight embedded database.
+- **Python** – Programming language  
+- **SQLite** – Lightweight database  
+- **Pandas** – Data manipulation and analysis  
+- **Matplotlib** – Data visualization  
 
-3.Pandas – Data manipulation and analysis.
+---
 
-4.Matplotlib – Chart creation and visualization.
+## Getting Started  
+
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/yourusername/Python-SQLite-Sales-Data-Analysis-Visualization.git
